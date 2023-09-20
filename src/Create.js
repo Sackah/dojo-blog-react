@@ -16,7 +16,7 @@ const Create = () => {
         setTimeout(()=>{
             blogManager.add(title, body, author);
             setIsPending(false);
-            history.push('/');
+            history.push('/dojo-blog-react');
         }, 1000)
     }
 

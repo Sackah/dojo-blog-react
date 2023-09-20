@@ -9,7 +9,7 @@ const BlogDetails = () => {
 
     const handleClick = () => {
         blogManager.remove(parseFloat(id)); //remove the correct blog by converting the id to a number
-        history.push('/');
+        history.push('/dojo-blog-react');
     }
 
     return ( 

@@ -11,8 +11,8 @@ const Navbar = () => {
         <div className="navbar">
             <h1>The Dojo Blog</h1>
             <div className="links">
-                <Link to="/">Home</Link>
-                <Link to="/create"
+                <Link to="/dojo-blog-react">Home</Link>
+                <Link to="/dojo-blog-react/create"
                     style={style}
                 >New Blog</Link>
             </div>
